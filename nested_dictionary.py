@@ -54,3 +54,12 @@ add_new_country("Russian", 2, ["Moscow", "Saint Petersburg"])
 print(visited_cities)
 print(travel_log)
 print(cities_visited)
+
+order = {
+    "starter": {1: "Salad", 2: "Soup"},
+    "main": {1: ["Burger", "Fries"], 2: ["Steak"]},
+    "dessert": {1: ["Ice Cream"], 2: []},
+}
+
+print(order["main"][2]) #Prints the content of the variable
+print(order["main"][2][0]) #Prints the string inside the variable 
