@@ -29,6 +29,19 @@ travel_log_v2 = {
   "Germany": {"cities_visited_v2": ["Berlin", "Hamburg", "Stuttgard"], "total_visits": 5},
 }
 
+travel_log_list = [
+  {
+    "country": "France",
+    "cities_visited_v2": ["Paris", "Lille", "Dijon"], 
+    "total_visits": 5,
+  },
+  {
+    "country": "Germany",
+    "cities_visited_v2": ["Berlin", "Hamburg", "Stuttgard"],
+    "total_visits": 5,
+  },
+]
+
 print(visited_cities)
 print(travel_log)
 print(cities_visited)
