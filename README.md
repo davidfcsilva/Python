@@ -11,3 +11,14 @@ variable_global = 5
 ### Local
 def game():
   variable_local = 5
+
+### Modify global variables inside a function
+
+variable = 0
+
+def game():
+  global variable
+  variable += 1
+ 
+game()
+print(variable) # Output should be 1
