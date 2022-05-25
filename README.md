@@ -10,8 +10,9 @@ def dosomething():
 ### Global
 ```
 variable_global = 5
-
+```
 ### Local
+```
 def game():
   variable_local = 5
 ```
