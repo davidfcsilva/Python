@@ -17,7 +17,7 @@ def game():
   variable_local = 5
 ```
 
-### Modify global variables inside a function
+### Modify global variables inside a function (not recommended has it could lead to bugs in the code)
 ```
 variable = 0
 
@@ -27,4 +27,27 @@ def game():
  
 game()
 print(variable) # Output should be 1
+```
+
+### Both variables are the same name but different scopes
+```
+enemies = 1
+
+def increase_enemies():
+  enemies = 2
+  print(f"enemies inside function: {enemies}")
+
+increase_enemies()
+print(f"enemies outside function: {enemies}"))
+```
+```
+enemies = 1
+
+def increase_enemies():
+  enemies = 2
+  print(f"enemies inside function: {enemies}")
+  return enemies - 1
+
+increase_enemies()
+print(f"enemies outside function: {enemies}"))
 ```
