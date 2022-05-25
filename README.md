@@ -13,7 +13,7 @@ def game():
   variable_local = 5
 
 ### Modify global variables inside a function
-
+'
 variable = 0
 
 def game():
@@ -22,3 +22,4 @@ def game():
  
 game()
 print(variable) # Output should be 1
+'
