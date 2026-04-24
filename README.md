@@ -1,8 +1,8 @@
 # Python
 
 ## Sandbox environment
-python3 -m venv api_demo  #Create "api_demo" virtual environment \n
-source api_demo/Scripts/activate #Activate "api_demo" environment
+`python3 -m venv api_demo  #Create "api_demo" virtual environment`
+`source api_demo/Scripts/activate #Activate "api_demo" environment`
 
 ## Docstrings
 ```
